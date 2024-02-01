@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "author": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
   "license": "CC0-1.0",
-  "description": "Metadatenprofile Englisch",
+  "description": "Metadatenprofile Englisch Sek I",
   "scripts": {
     "validate": "validate-md-profile"
   },

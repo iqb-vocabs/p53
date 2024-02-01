@@ -48,7 +48,7 @@
           "label": [
             {
               "lang": "de",
-              "value": "Textkomplexität: Abstractionsgrad"
+              "value": "Textkomplexität: Abstraktionsgrad"
             }
           ],
           "type": "vocabulary",
@@ -89,6 +89,19 @@
           }
         },
         {
+          "id": "iqb_other_text_type",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Textkomplexität: Andere Textsorte"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": "single"
+          }
+        },
+        {
           "id": "e7",
           "label": [
             {
@@ -113,7 +126,7 @@
           ],
           "type": "text",
           "parameters": {
-            "format": ""
+            "format": "single"
           }
         },
         {
@@ -121,7 +134,7 @@
           "label": [
             {
               "lang": "de",
-              "value": "Quellenangaben"
+              "value": "Quellenangabe - Erstaufnahme"
             }
           ],
           "type": "text",
@@ -130,11 +143,37 @@
           }
         },
         {
-          "id": "iqb_copyright_complete",
+          "id": "iqb_copyright_citation",
           "label": [
             {
               "lang": "de",
-              "value": "Vollständige Quellenangabe"
+              "value": "Quellenangabe - Vermerk / Zitation"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": "single"
+          }
+        },
+        {
+          "id": "iqb_copyright_original",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Quellenangabe - Transkript Original"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": "multiline"
+          }
+        },
+        {
+          "id": "iqb_copyright_transformed",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Quellenangabe - Transkript mit Änderungen"
             }
           ],
           "type": "text",
@@ -192,7 +231,7 @@
       "label": [
         {
           "lang": "de",
-          "value": "Hörsequenz"
+          "value": "Audivisuelle / Hörsequenz"
         }
       ],
       "entries": [
@@ -204,11 +243,9 @@
               "value": "Anzahl Sprecher*innen"
             }
           ],
-          "type": "number",
+          "type": "text",
           "parameters": {
-            "minValue":  1,
-            "maxValue": 5,
-            "digits": 0
+            "format":  "single"
           }
         },
         {
@@ -258,88 +295,6 @@
         },
         {
           "id": "k6",
-          "label": [
-            {
-              "lang": "de",
-              "value": "Transkript"
-            }
-          ],
-          "type": "text",
-          "parameters": {
-            "format": "multiline"
-          }
-        }
-      ]
-    },
-    {
-      "label": [
-        {
-          "lang": "de",
-          "value": "Audiovisuelle Sequenz"
-        }
-      ],
-      "entries": [
-        {
-          "id": "s2",
-          "label": [
-            {
-              "lang": "de",
-              "value": "Anzahl Sprecher*innen"
-            }
-          ],
-          "type": "number",
-          "parameters": {
-            "minValue":  1,
-            "digits": 0
-          }
-        },
-        {
-          "id": "s3",
-          "label": [
-            {
-              "lang": "de",
-              "value": "Sprechtempo"
-            }
-          ],
-          "type": "vocabulary",
-          "parameters": {
-            "url": "https://w3id.org/iqb/v25/sp/",
-            "allowMultipleValues": false,
-            "hideNumbering": true
-          }
-        },
-        {
-          "id": "s4",
-          "label": [
-            {
-              "lang": "de",
-              "value": "Varianten"
-            }
-          ],
-          "type": "vocabulary",
-          "parameters": {
-            "url": "https://w3id.org/iqb/v25/av/",
-            "allowMultipleValues": false,
-            "hideNumbering": true
-          }
-        },
-        {
-          "id": "s5",
-          "label": [
-            {
-              "lang": "de",
-              "value": "Nebengeräusche"
-            }
-          ],
-          "type": "vocabulary",
-          "parameters": {
-            "url": "https://w3id.org/iqb/v25/ne/",
-            "allowMultipleValues": false,
-            "hideNumbering": true
-          }
-        },
-        {
-          "id": "s6",
           "label": [
             {
               "lang": "de",
