@@ -1,0 +1,357 @@
+{
+  "id": "https://raw.githubusercontent.com/iqb-vocabs/p53/master/unit.json",
+  "label": [{
+    "lang": "de",
+    "value": "IQB English Sek I - Aufgabe"
+  }],
+  "groups": [
+    {
+      "label": [
+        {
+          "lang": "de",
+          "value": "Stimulus"
+        }
+      ],
+      "entries": [
+        {
+          "id": "e2",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Textniveau (GER)"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v26/ng/",
+            "allowMultipleValues": false,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "e3",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Textkomplexität: Lexiko-Grammatik"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v25/le/",
+            "allowMultipleValues": false,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "e4",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Textkomplexität: Abstractionsgrad"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v25/ta/",
+            "allowMultipleValues": false,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "e5",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Textkomplexität: Thematischer Vertrautheitsgrad"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v25/ve/",
+            "allowMultipleValues": false,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "e6",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Textkomplexität: Textsorte"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v25/te/",
+            "allowMultipleValues": false,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "e7",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Thema"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v25/th/",
+            "allowMultipleValues": false,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "iqb_other_topic",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Andere Thema"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": ""
+          }
+        },
+        {
+          "id": "iqb_copyright",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Quellenangaben"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": "multiline"
+          }
+        },
+        {
+          "id": "iqb_copyright_complete",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Vollständige Quellenangabe"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": "multiline"
+          }
+        },
+        {
+          "id": "iqb_time_stimulus",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Stimuluszeit"
+            }
+          ],
+          "type": "number",
+          "parameters": {
+            "minValue": 0,
+            "digits": 0,
+            "isPeriodSeconds": true
+          }
+        },
+        {
+          "id": "iqb_word_count",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Wortanzahl"
+            }
+          ],
+          "type": "number",
+          "parameters": {
+            "minValue": 0,
+            "digits": 0
+          }
+        },
+        {
+          "id": "iqb_time_unit",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Aufgabenzeit"
+            }
+          ],
+          "type": "number",
+          "parameters": {
+            "minValue": 0,
+            "digits": 0,
+            "isPeriodSeconds": true
+          }
+        }
+      ]
+    },
+    {
+      "label": [
+        {
+          "lang": "de",
+          "value": "Hörsequenz"
+        }
+      ],
+      "entries": [
+        {
+          "id": "k2",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Anzahl Sprecher*innen"
+            }
+          ],
+          "type": "number",
+          "parameters": {
+            "minValue":  1,
+            "maxValue": 5,
+            "digits": 0
+          }
+        },
+        {
+          "id": "k3",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Sprechtempo"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v25/sp/",
+            "allowMultipleValues": false,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "k4",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Varianten"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v25/av/",
+            "allowMultipleValues": false,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "k5",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Nebengeräusche"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v25/ne/",
+            "allowMultipleValues": false,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "k6",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Transkript"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": "multiline"
+          }
+        }
+      ]
+    },
+    {
+      "label": [
+        {
+          "lang": "de",
+          "value": "Audiovisuelle Sequenz"
+        }
+      ],
+      "entries": [
+        {
+          "id": "s2",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Anzahl Sprecher*innen"
+            }
+          ],
+          "type": "number",
+          "parameters": {
+            "minValue":  1,
+            "digits": 0
+          }
+        },
+        {
+          "id": "s3",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Sprechtempo"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v25/sp/",
+            "allowMultipleValues": false,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "s4",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Varianten"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v25/av/",
+            "allowMultipleValues": false,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "s5",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Nebengeräusche"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v25/ne/",
+            "allowMultipleValues": false,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "s6",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Transkript"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": "multiline"
+          }
+        }
+      ]
+    }
+  ]
+}
