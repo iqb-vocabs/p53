@@ -7,7 +7,7 @@ Autor/Organisation: IQB - Institut zur Qualitätsentwicklung im Bildungswesen
 
 2 Profile definiert:
 
-## Profil "IQB English Sek I - Aufgabe"
+## Profil "IQB Englisch Sek I - Aufgabe"
 ```
 https://raw.githubusercontent.com/iqb-vocabs/p53/master/unit.json
 ```
