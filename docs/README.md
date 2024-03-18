@@ -27,12 +27,14 @@ https://raw.githubusercontent.com/iqb-vocabs/p53/master/unit.json
 | Länge des verwendeten Audioauszugs | Zahl |Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden | iqb_time_stimulus |
 | Wortanzahl | Zahl |Kommastellen: 0, Mindestwert: 0, Maximalwert: kein | iqb_word_count |
 | Aufgabenzeit | Zahl |Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden | iqb_time_unit |
+
 ### Quellenangaben
 
 | Name/Label | Typ | Parameter | ID Profil-Eintrag |
 | :--- | :---: | :--- | :---: |
 | Vermerk / Zitation | Text |Mehrzeilig, Sprache(n): de | iqb_copyright_citation |
 | Transkript Original / Text Original | Text |Mehrzeilig, Sprache(n): de | iqb_copyright_original |
+
 ### Hörsequenz
 
 | Name/Label | Typ | Parameter | ID Profil-Eintrag |
@@ -42,6 +44,7 @@ https://raw.githubusercontent.com/iqb-vocabs/p53/master/unit.json
 | Varianten | [Vokabular](https://w3id.org/iqb/v25/av/) | url: 'https://w3id.org/iqb/v25/av/', Einmalauswahl, verberge Nummerierung | k4 |
 | Nebengeräusche | [Vokabular](https://w3id.org/iqb/v25/ne/) | url: 'https://w3id.org/iqb/v25/ne/', Einmalauswahl, verberge Nummerierung | k5 |
 | Transkript zur Aufgabe | Text |Mehrzeilig, Sprache(n): de | k6 |
+
 ## Profil "IQB Englisch Sek I - Item"
 ```
 https://raw.githubusercontent.com/iqb-vocabs/p53/master/item.json
