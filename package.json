@@ -5,7 +5,8 @@
   "license": "CC0-1.0",
   "description": "Metadatenprofile Englisch Sek I",
   "scripts": {
-    "validate": "validate-md-profile"
+    "validate": "validate-md-profile",
+    "validate_q": "validate-md-profile -quarto && cp docs/README.qmd ./index.qmd"
   },
   "repository": {
     "type": "git",
