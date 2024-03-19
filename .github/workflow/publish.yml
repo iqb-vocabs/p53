@@ -1,0 +1,51 @@
+on:
+    workflow_dispatch:
+    push:
+      branches:
+        - master
+    pull_request:
+      branches:
+        - master
+
+name: Render and Publish Profile Info Page
+
+jobs:
+  job_1:
+    name: Create new profile page
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+      - run: npm ci
+      - run: npm run validate
+      - name: Archive production artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: docs
+          path: docs/README.md
+          retention-days: 1
+          overwrite: true
+  job_2:
+    needs: job_1
+    name: render quarto
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+      - name: Download readme.md
+        uses: actions/download-artifact@v4
+        with:
+          name: docs
+          path: index.qmd
+      - name: Publish to GitHub Pages (and render) 
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
