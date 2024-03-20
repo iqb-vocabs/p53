@@ -2,7 +2,7 @@
 
 # Profilgruppe für Metadaten
 
-Dieses Repository enthält Metadaten-Profile. Dies sind Vorschriften, welche Metadaten ein bestimmtes Datenobjekt haben solllte.
+Dieses Repository enthält Metadaten-Profile. Dies sind Vorschriften, welche Metadaten ein bestimmtess Datenobjekt haben solllte.
 
 Für eine Textansicht der hier gespeicherten Profile [bitte hier klicken](/docs#readme)!
 
