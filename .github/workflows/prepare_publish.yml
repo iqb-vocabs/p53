@@ -26,7 +26,7 @@ jobs:
               git checkout -b gh-prepare
               npm ci
               npm run validate_q
-              git add .
+              git add -A
               git commit -m 'Create new index.qmd'
               git push --set-upstream origin gh-prepare --force
         env:
