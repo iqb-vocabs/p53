@@ -19,8 +19,6 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 18
-      - run: 
-      - run: 
       - name: Create new branch
         run: |
               git config --global user.email "yanpingchenlin@gmail.com"
