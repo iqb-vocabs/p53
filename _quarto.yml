@@ -12,7 +12,12 @@ website:
     left:
       - href: index.qmd
         text: "Metadatenprofile für Testaufgaben: Englisch Sek I"
+    right:
+      - icon: github
+        href: https://github.com/iqb-vocabs/p53
+        aria-label: Source Code
 
+lang: de
 format:
   html:
     theme: cosmo
