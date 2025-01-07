@@ -28,6 +28,7 @@ ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p53/master/unit.jso
 | Wortanzahl | Zahl |Kommastellen: 0, Mindestwert: 0, Maximalwert: kein | iqb_word_count |
 | Aufgabenzeit | Zahl |Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden | iqb_time_unit |
 | Unverträgliche Aufgaben | Text |Einzeilig, Sprache(n): de | iqb_compatibility |
+| Für SPF geeignet | Ja/Nein |Text für WAHR: ja, Text für FALSCH: nein | a1 |
 | Kopfhörereinsatz | [Vokabular](https://w3id.org/iqb/v24/kh/) | url: 'https://w3id.org/iqb/v24/kh/', Einmalauswahl, Nummerierung unterdrückt | iqb_phones |
 
 ### Quellenangaben

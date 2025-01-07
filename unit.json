@@ -187,6 +187,30 @@
           }
         },
         {
+          "id": "a1",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Für SPF geeignet"
+            }
+          ],
+          "type": "boolean",
+          "parameters": {
+            "trueLabel": [
+              {
+                "lang": "de",
+                "value": "ja"
+              }
+            ],
+            "falseLabel": [
+              {
+                "lang": "de",
+                "value": "nein"
+              }
+            ]
+          }
+        },
+        {
           "id": "iqb_phones",
           "label": [
             {
