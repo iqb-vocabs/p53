@@ -26,5 +26,12 @@
     "title": "Metadatenprofile für Testaufgaben - Englisch Sek I",
     "section": "Hörsequenz",
     "text": "Hörsequenz\n\n\n\n\n\n\n\n\n\nName/Label\nTyp\nParameter\nID Profil-Eintrag\n\n\n\n\nSprecheranzahl / Sprechermerkmale\nText\nEinzeilig, Sprache(n): de\nk2\n\n\nSprechtempo\nVokabular\nurl: ‘https://w3id.org/iqb/v25/sp/’, Einmalauswahl, Nummerierung unterdrückt\nk3\n\n\nVarianten\nVokabular\nurl: ‘https://w3id.org/iqb/v25/av/’, Einmalauswahl, Nummerierung unterdrückt\nk4\n\n\nNebengeräusche\nVokabular\nurl: ‘https://w3id.org/iqb/v25/ne/’, Einmalauswahl, Nummerierung unterdrückt\nk5\n\n\nTranskript zur Aufgabe\nText\nMehrzeilig, Sprache(n): de\nk6"
+  },
+  {
+    "objectID": "docs/changelog.html",
+    "href": "docs/changelog.html",
+    "title": "",
+    "section": "",
+    "text": "Änderung von Version 0.9.0 auf Version 0.10.0\nDas Feld ‘Add SPF geeignet’ in Stimulus wurde hinzugefügt."
   }
 ]
